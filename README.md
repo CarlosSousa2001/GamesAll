@@ -14,5 +14,5 @@ Tecnologias utilizadas
 - Typescript
 - React-icons
 
-DEPLOY VERCEL: 
+DEPLOY VERCEL: https://games-all-c48l.vercel.app/
 
