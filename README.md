@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto feito com NEXT.JS --typescript
+Esse projeto em Next.js utiliza SSR (Server-Side Rendering) para renderizar as páginas no servidor, 
+proporcionando uma carga inicial mais rápida e melhorando a eficiência na entrega de conteúdo dinâmico aos usuários.
 
-## Getting Started
+![image](https://github.com/CarlosSousa2001/GamesAll/assets/97534614/4c04223e-8d14-4227-b9b0-d02a405e97e2)
+![image](https://github.com/CarlosSousa2001/GamesAll/assets/97534614/866f222f-4816-454e-a4d1-dde4cea97a10)
 
-First, run the development server:
+## Página de detalhes
+![image](https://github.com/CarlosSousa2001/GamesAll/assets/97534614/bbfc6354-1479-49a6-a034-ada65daa2c37)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tecnologias utilizadas
+- Next.js
+- Typescript
+- React-icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+DEPLOY VERCEL: 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
