@@ -13,26 +13,6 @@ interface PropsParams {
     }
 }
 
-export async function generateMetaData({params}:PropsParams): Promise<Metadata> {
-    try {
-        const res:GameProps = await fetch(api.GET_GAME_BY_ID(params.id), {next:{revalidate: 60 }})
-        .then((res)=> res.json())
-        .catch(()=>{
-            return{
-                title: "Dalygames - jogos divertidos"
-            }
-        })
-
-        return {
-            title: res.title,
-        }
-
-    } catch (error) {
-        return{
-            title: "Dalygames - jogos divertidos"
-        }
-    }
-}
 
 async function getData(id:string) {
     try {
